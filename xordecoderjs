@@ -1,0 +1,16 @@
+public class DICAss10_XORDecryption {
+ public static void main(String[] args){
+ String CTxt = "\"K*&K>%/.9K*??*( J";
+ char key = 'k'; 
+ String Msg = "";
+ int xor;
+ char temp;
+ for(int i=0;i<CTxt.lenght();i++){
+ xor=Ctxt.charAt(i)^ Key;
+ temp=(char)xor;
+ Msg=Msg+temp
+ }
+
+System.out.println(Msg);
+ }
+}
